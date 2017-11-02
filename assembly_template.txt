@@ -1,0 +1,23 @@
+include 'emu8086.inc'  ; include library function
+.model small
+.stack 100h
+.data             ; data section
+    
+    
+.code             ; code section
+main proc         ; main proc start
+    mov ax, @data ; import data
+    mov ds, ax
+    
+    
+exit:    
+    mov ah, 4ch   ; exit
+    int 21h
+    main endp      ; main proc end
+    define_print_num_uns
+    define_print_num
+    define_scan_num
+end main
+
+
+
