@@ -1,1 +1,3 @@
-# Assembly8086_UVA_Ptoblem_Solve
+# Assembly8086
+This repository contains Assembly Program
+Convert C to Assembly8086 (50 problems of UVA) 
